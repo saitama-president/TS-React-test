@@ -1,7 +1,4 @@
-import Express from "express"
-
-
-
+import * as Express from "express"
 
 const app:Express.Express=Express();
 const router:Express.Router = Express.Router();

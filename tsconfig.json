@@ -6,9 +6,16 @@
     "strictPropertyInitialization": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "module": "commonjs",
-    "target": "es5",
-    "jsx": "react"
+    "jsx": "react",
+    "target": "es2015",            
+    "module": "commonjs",              
+    "strict": false,   
+    "esModuleInterop": true ,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true, 
+  }
+}; 
   },
   "include": [
     "./src/**/*"
